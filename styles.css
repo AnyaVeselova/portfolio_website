@@ -167,6 +167,9 @@ body {
   .header__sm-menu-link-last {
     border-bottom: 0; }
 
+    .d-none {
+      display: none; }
+
 a {
   text-decoration: none;
   color: inherit; 
