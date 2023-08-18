@@ -262,3 +262,21 @@ button {
 .home__hero--social-icon {
   width: 100%; 
 }
+
+.home__hero--content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%; 
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__hero--content {
+    padding: 19rem 0 13rem 0;
+    margin: auto;
+    position: static;
+    transform: translate(0, 0); 
+  }
+}
