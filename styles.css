@@ -211,3 +211,17 @@ button {
     min-height: unset; 
   } 
 }
+
+.home__hero--socials{
+  position: absolute;
+  top: 50%;
+  border: 2px solid #eee;
+  border-left: 2px solid #eee;
+  transform: translateY(-50%); 
+}
+
+@media only screen and (max-width: 56.25em) {
+  .home__hero--socials {
+    display: none;
+  }
+}
