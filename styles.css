@@ -51,9 +51,10 @@ body {
  font-family: 'Source Sans Pro', sans-serif; 
 }
 
-header {
+.header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1em;
 }
 
@@ -146,12 +147,13 @@ header {
 .hamburger {
   display: block;
   position: relative;
+ 
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-accent);
+  background: #333;
   width: 2em;
   height: 3px;
   border-radius: 1em;
