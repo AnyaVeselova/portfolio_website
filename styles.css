@@ -225,3 +225,16 @@ button {
     display: none;
   }
 }
+
+.home__hero--mouse-scroll-cont{
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+@media only screen and (max-width: 37.5em) {
+  .home__hero--mouse-scroll-cont {
+    display: none;
+ } 
+}
