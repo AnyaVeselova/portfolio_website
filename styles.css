@@ -279,4 +279,10 @@ button {
     position: static;
     transform: translate(0, 0); 
   }
+
+}
+
+.home__hero--info {
+  margin: 3rem auto 0 auto;
+  max-width: 80rem;
 }
