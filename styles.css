@@ -308,3 +308,15 @@ button {
     grid-gap: 8rem;
   }
 }
+
+.about__content-title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .about__content-title {
+    font-size: 2.4rem;
+  }
+}
