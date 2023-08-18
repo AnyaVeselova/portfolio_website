@@ -236,6 +236,25 @@ button {
       .heading-sec__main::after {
         top: calc(100% + 1.2rem); } }
 
+        .heading-sec__main--lt {
+          color: #fff; }
+          .heading-sec__main--lt::after {
+            content: '';
+            background: #fff !important; }
+        .heading-sec__main::after {
+          content: '';
+          position: absolute;
+          top: calc(100% + 1.5rem);
+          height: 5px;
+          width: 3rem;
+          background: rgba(var(--main-color), 1);
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 5px; }
+          @media only screen and (max-width: 37.5em) {
+            .heading-sec__main::after {
+              top: calc(100% + 1.2rem); } }
+
 .heading__sec--sub {
   display: block;
   text-align: center;
@@ -539,6 +558,7 @@ button {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
+
     font-size: 1.6rem;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
@@ -546,3 +566,9 @@ button {
     color: #777; }
 
 
+
+    .contact {
+      background: url(./svg/Animated\ Shape.svg);
+      background-size: cover;
+      background-position: center; 
+    }
