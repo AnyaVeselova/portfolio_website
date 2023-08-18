@@ -317,7 +317,9 @@ button {
 
 .home__hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(../../assets/svg/common-bg.svg);
+  background: url(./svg/Animated\ Shape.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -542,4 +544,5 @@ button {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+
 
