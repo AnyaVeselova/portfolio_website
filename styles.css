@@ -584,8 +584,6 @@ button {
       letter-spacing: 2px;
       padding: 2.5em 0;
       text-align: center;
-      -webkit-box-shadow: 5px 0 0 10px #4a5759;
-              box-shadow: 5px 0 0 10px #4a5759;
     }
     
     .footer a {
