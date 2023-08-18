@@ -378,4 +378,21 @@ button {
   align-items: flex-start;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .projects__row--content {
+    align-items: center;
+  }
+}
+
+.projects__row--content-title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .projects__row--content-title {
+    font-size: 2.4rem;
+  }
+}
 
