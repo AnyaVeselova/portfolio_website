@@ -264,6 +264,9 @@ button {
   max-width: 80rem;
   margin: auto;
   line-height: 1.6; }
+
+  .heading-sec__sub--lt {
+    color: #eee; }
   @media only screen and (max-width: 37.5em) {
     .heading__sec--sub {
       font-size: 1.8rem; } }
