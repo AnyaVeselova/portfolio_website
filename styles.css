@@ -58,3 +58,10 @@ a {
 li {
   list-style: none; 
 }
+
+input:focus,
+button:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
