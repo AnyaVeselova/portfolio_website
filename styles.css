@@ -237,4 +237,28 @@ button {
   .home__hero--mouse-scroll-cont {
     display: none;
  } 
+
+}
+
+.home__hero--social {
+  width: 5rem; 
+}
+
+.home__hero--social-icon-link {
+  width: 100%;
+  display: block;
+  padding: 1.2rem;
+  border-bottom: 2px solid #eee;
+  transition: background .3s;
+}
+
+.home__hero--social-icon-link:hover {
+  background: rgba(255, 255, 255, 0.1); 
+}
+
+.home__hero--social-icon-link--bd-none {
+  border-bottom: 0; }
+
+.home__hero--social-icon {
+  width: 100%; 
 }
