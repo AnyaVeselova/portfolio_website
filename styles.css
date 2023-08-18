@@ -286,3 +286,8 @@ button {
   margin: 3rem auto 0 auto;
   max-width: 80rem;
 }
+
+.home__hero--cta {
+  margin-top: 5rem;
+  text-align: center; 
+}
