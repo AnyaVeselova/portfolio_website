@@ -710,3 +710,7 @@ button {
     .fab {
       font-size: 2rem;
     }
+
+    .bold {
+      font-weight: 900;
+    }
