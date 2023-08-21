@@ -16,7 +16,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: inherit; 
 }
 
 
@@ -189,6 +188,10 @@ textarea:focus {
 button {
   border: none;
   cursor: pointer; 
+}
+
+.heading {
+  font-family: 'Barriecito', cursive;
 }
 
 .heading--primary {
