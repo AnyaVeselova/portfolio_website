@@ -546,7 +546,25 @@ button {
 
 .projects__row--img-cont {
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
 }
+
+.projects__row--img-snake {  
+  background-image: url("./images/snake.gif");  
+}
+
+.projects__row--img-quiz {
+  background-image: url("./images/quizzical.gif");
+}
+
+.projects__row--img-tenzies {
+  background-image: url("./images/tenzies.gif");
+}
+
+
 
 .projects__row-img {
   width: 100%;
