@@ -36,3 +36,12 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+const description = document.querySelector(".about__content-details-para")
+const readMoreBtn = document.querySelector(".read-more")
+
+readMoreBtn.addEventListener("click", function() {
+  description.classList.toggle("expanded")
+  readMoreBtn.textContent = description.classList.contains("expanded") 
+  ? "Read less" : "Read more"
+})
