@@ -506,15 +506,15 @@ button {
 
 .projects__row-img-cont {
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.6);
 }
 
 
 .projects__row-img {
   width: 100%;
   display: block;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.6);
+  object-fit: cover;  
 }
 
 .projects__row--content {
